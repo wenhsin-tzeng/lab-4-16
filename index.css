@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+body {
+  font-family: 'Goldman', cursive;
+  background-color: red;
+  color: white;
+}
+
+.container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 290px;
+  z-index: 999;
+}
+
+.text-2 {
+  position: relative;
+  text-align: center;
+  margin-top: -40px;
+  font-size: 20px;
+  z-index: 999;
+  color: red;
+  animation-name: blinkinfinite;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blinkinfinite {
+  0% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.picture-location {
+  position: absolute;
+  top: 0px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.album-name-year {
+  position: relative;
+  text-align: center;
+  font-size: 5px;
+  z-index: 999;
+  letter-spacing: 3px;
+  margin-top: 60px;
+}
+
+.picture-location-2 {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-3 {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-4 {
+  position: absolute;
+  top: 0px;
+  left: 900px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-5 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-6 {
+  position: absolute;
+  top: 400px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-7 {
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-8 {
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-9 {
+  position: absolute;
+  top: 400px;
+  left: 900px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
+
+.picture-location-10 {
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  width: 400px;
+  height: auto;
+  background-size: cover;
+  /* filter: grayscale(100%); */
+  opacity: 50%;
+}
