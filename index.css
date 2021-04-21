@@ -4,8 +4,9 @@ body {
   background-color: red;
   color: white;
   animation-name: bgchangecolor;
-  animation-duration: 10s;
+  animation-duration: 16s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes bgchangecolor {
@@ -22,7 +23,7 @@ body {
     background-color: purple;
   }
   100%{
-    background-color: red;
+    background-color: black;
   }
 
 }
@@ -38,10 +39,12 @@ body {
   z-index: 999;
   opacity: 100%;
   filter: grayscale(0%);
-  animation-name: blinkk;
+  /* animation-name: blinkk;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: alternate; */
+
+
 }
 
 @keyframes blinkk {
@@ -57,7 +60,7 @@ body {
 }
 
 .travis:hover {
-  opacity: 100%;
+  opacity: 40%;
   animation-duration: 0s;
 }
 
@@ -87,9 +90,11 @@ body {
   z-index: 999;
   color: red;
   animation-name: blinkinfinite;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+
+
 }
 
 @keyframes blinkinfinite {
