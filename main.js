@@ -41,11 +41,13 @@ document.addEventListener('keydown', function(event) {
   document.getElementById('pic-9').style.display = "block";
   document.getElementById('sicko').style.fontSize = "20px";
 
-} else if (event.code == 'KeyP'){
+  } else if (event.code == 'KeyP'){
   document.getElementById('pic-10').style.display = "block";
   document.getElementById('plan').style.fontSize = "20px";
 
-  }
+} else {
+  document.body.style.backgroundColor = "black";
+}
 
 
 
@@ -53,16 +55,16 @@ document.addEventListener('keydown', function(event) {
 
 document.addEventListener('keyup', function(event) {
     document.body.style.backgroundColor = "red";
-    document.getElementById('rodeo').style.fontSize = "5px";
-    document.getElementById('birds').style.fontSize = "5px";
-    document.getElementById('huncho').style.fontSize = "5px";
-    document.getElementById('astro').style.fontSize = "5px";
-    document.getElementById('jackboys').style.fontSize = "5px";
-    document.getElementById('franchise').style.fontSize = "5px";
-    document.getElementById('goosebumps').style.fontSize = "5px";
-    document.getElementById('highest').style.fontSize = "5px";
-    document.getElementById('sicko').style.fontSize = "5px";
-    document.getElementById('plan').style.fontSize = "5px";
+    document.getElementById('rodeo').style.fontSize = "4px";
+    document.getElementById('birds').style.fontSize = "4px";
+    document.getElementById('huncho').style.fontSize = "4px";
+    document.getElementById('astro').style.fontSize = "4px";
+    document.getElementById('jackboys').style.fontSize = "4px";
+    document.getElementById('franchise').style.fontSize = "4px";
+    document.getElementById('goosebumps').style.fontSize = "4px";
+    document.getElementById('highest').style.fontSize = "4px";
+    document.getElementById('sicko').style.fontSize = "4px";
+    document.getElementById('plan').style.fontSize = "4px";
 
 
 

@@ -3,28 +3,66 @@ body {
   font-family: 'Goldman', cursive;
   background-color: red;
   color: white;
+  
+}
+
+.travis {
+  width: 280px;
+  padding-top: 180px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 575px; */
+  z-index: 999;
+  opacity: 100%;
+  filter: grayscale(0%);
+  animation-name: blinkk;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blinkk {
+  0% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.travis:hover {
+  opacity: 100%;
+  animation-duration: 0s;
 }
 
 .container{
   position: relative;
   height: 100%;
   width: 100%;
-  margin-top: 50px;
 }
 
 .text {
   position: relative;
   text-align: center;
-  font-size: 50px;
-  padding-top: 290px;
+  font-size: 70px;
   z-index: 999;
+  margin-top: -28px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
 }
 
 .text-2 {
   position: relative;
   text-align: center;
-  margin-top: -40px;
-  font-size: 20px;
+  font-size: 14px;
+  margin-top: -10px;
+  line-height: 18px;
   z-index: 999;
   color: red;
   animation-name: blinkinfinite;
@@ -35,6 +73,9 @@ body {
 
 @keyframes blinkinfinite {
   0% {
+    color: red;
+  }
+  40% {
     color: red;
   }
   100% {
@@ -55,7 +96,7 @@ body {
 .album-name-year {
   position: relative;
   text-align: center;
-  font-size: 5px;
+  font-size: 4px;
   z-index: 999;
   letter-spacing: 3px;
   margin-top: 60px;
